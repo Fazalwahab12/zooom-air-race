@@ -46,7 +46,7 @@ export function CategoryFilter() {
                 )}
               />
               <span className="font-medium">{label}</span>
-              <span className={cn('text-xs', isActive ? 'opacity-70' : 'opacity-50')}>
+              <span className={cn('hidden text-xs sm:inline', isActive ? 'opacity-70' : 'opacity-50')}>
                 {description}
               </span>
               <span
