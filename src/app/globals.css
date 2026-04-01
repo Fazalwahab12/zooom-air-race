@@ -1,26 +1,41 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Override Leaflet popup styles to match our design */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12) !important;
+  border: 1px solid #e4e4e7 !important;
+  padding: 0 !important;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.leaflet-popup-tip-container {
+  margin-top: -1px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Smooth marker transitions */
+.leaflet-marker-icon {
+  transition: transform 0.15s ease;
+}
+
+.leaflet-marker-icon:hover {
+  transform: scale(1.15) translateY(-2px);
+  z-index: 1000 !important;
+}
+
+/* Scrollbar styling for event list */
+.event-list-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.event-list-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.event-list-scroll::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 4px;
 }

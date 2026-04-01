@@ -1,0 +1,82 @@
+[
+  {
+    "id": "evt-001",
+    "title": "Abu Dhabi Grand Prix Air Race",
+    "description": "Opening race of the season above the iconic Corniche waterfront. Pilots navigate a low-level slalom course at 370 km/h.",
+    "address": "Corniche Waterfront, Abu Dhabi",
+    "country": "United Arab Emirates",
+    "coordinates": { "lat": 24.4539, "lng": 54.3773 },
+    "category": "A",
+    "date": "2026-03-15"
+  },
+  {
+    "id": "evt-002",
+    "title": "Budapest Air Race",
+    "description": "The beloved Budapest race returns along the Danube river, with the Chain Bridge as a spectacular backdrop.",
+    "address": "Danube River, Budapest",
+    "country": "Hungary",
+    "coordinates": { "lat": 47.4979, "lng": 19.0402 },
+    "category": "A",
+    "date": "2026-06-22"
+  },
+  {
+    "id": "evt-003",
+    "title": "San Diego Coastal Challenge",
+    "description": "A fan-favorite over the Pacific coastline, featuring tight hairpin turns and a final dash above the bay.",
+    "address": "San Diego Bay, San Diego",
+    "country": "United States",
+    "coordinates": { "lat": 32.7157, "lng": -117.1611 },
+    "category": "B",
+    "date": "2026-07-04"
+  },
+  {
+    "id": "evt-004",
+    "title": "Chiba Bay Race",
+    "description": "Japan's premier air race over Tokyo Bay. A technically demanding track that rewards precision over raw speed.",
+    "address": "Makuhari Beach, Chiba",
+    "country": "Japan",
+    "coordinates": { "lat": 35.6528, "lng": 140.0000 },
+    "category": "A",
+    "date": "2026-08-17"
+  },
+  {
+    "id": "evt-005",
+    "title": "Spielberg Mountain Race",
+    "description": "An alpine circuit in the Austrian mountains, combining steep altitude changes with hairpin pylons.",
+    "address": "Red Bull Ring, Spielberg",
+    "country": "Austria",
+    "coordinates": { "lat": 47.2197, "lng": 14.7647 },
+    "category": "B",
+    "date": "2026-09-05"
+  },
+  {
+    "id": "evt-006",
+    "title": "Porto Seafront Race",
+    "description": "Low-level passes over the Douro river estuary make Porto one of the most scenic stops on the circuit.",
+    "address": "Foz do Douro, Porto",
+    "country": "Portugal",
+    "coordinates": { "lat": 41.1579, "lng": -8.6291 },
+    "category": "B",
+    "date": "2026-09-28"
+  },
+  {
+    "id": "evt-007",
+    "title": "Indianapolis Speedway Flyover",
+    "description": "A unique race where the legendary oval track is used as a reference course for the aerial slalom above.",
+    "address": "Indianapolis Motor Speedway, Indianapolis",
+    "country": "United States",
+    "coordinates": { "lat": 39.7950, "lng": -86.2347 },
+    "category": "A",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "evt-008",
+    "title": "Cannes Riviera Sprint",
+    "description": "Season finale above the French Riviera. Championship points are doubled, making this the most dramatic race of the year.",
+    "address": "Croisette Bay, Cannes",
+    "country": "France",
+    "coordinates": { "lat": 43.5528, "lng": 7.0174 },
+    "category": "B",
+    "date": "2026-11-02"
+  }
+]
